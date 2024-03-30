@@ -7,6 +7,13 @@ import salvus from "../assets/img/salvus.PNG";
 import socialmedia from "../assets/img/socialmedia.PNG";
 import StaffExam from "../assets/img/StaffExam.PNG";
 import multi_level from "../assets/img/muilt_level.PNG";
+import cardtonic from "../assets/img/cardtonic.PNG";
+import blockchain from "../assets/img/blockchain.PNG";
+import nosh from "../assets/img/nosh.PNG";
+import twitterclone from "../assets/img/twitterclone.PNG";
+import airbnb from "../assets/img/airbnb.PNG";
+import amazon from "../assets/img/amazon.PNG";
+import hulu from "../assets/img/huluclone.PNG";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -49,6 +56,48 @@ export const Projects = () => {
       description: "Technologies:Nodejs,sqlite,Angularjs,html and css",
       imgUrl:salvus,
       link:"https://salvus.datacreds.com/"
+    },
+    {
+      title: "Cardtonic Clone",
+      description: "Technologies:Javascript,React,TailwindCSS,html and css",
+      imgUrl: cardtonic,
+      link:"https://cardtonic-clone-orcin.vercel.app/",
+    },
+    {
+      title: "A Blockchain Aplication",
+      description: "Technologies:ReactJS,Solidity,html and css",
+      imgUrl:blockchain,
+      link:"https://kryptov3rse.vercel.app/ ",
+    },
+    {
+      title: "Nosh Clone",
+      description: "Technologies:React,TailwindCSS,html and css",
+      imgUrl: nosh,
+      link:"https://nosh-clone.vercel.app/",
+    },
+    {
+      title: "Twitter clone",
+      description: "Technologies:React,NextJS,TypeScript,html and css",
+      imgUrl:twitterclone,
+      link:"https://twitter-clone-nu-ten.vercel.app/",
+    },
+    {
+      title: "AirBnB Clone",
+      description: "Technologies:React,html and css",
+      imgUrl: airbnb,
+      link:"https://airbnb-inky.vercel.app/"
+    },
+    {
+      title: "Amazon Clone",
+      description: "Technologies:Nodejs & expresjs,React,html and css",
+      imgUrl:amazon,
+      link:"https://amazon-nu-tan.vercel.app/"
+    },
+    {
+      title: "Hulu Clone",
+      description: "Technologies:Nodejs & expresjs,Angular,html and css",
+      imgUrl:hulu,
+      link:"https://huluclone-dun.vercel.app/"
     },
   ];
 

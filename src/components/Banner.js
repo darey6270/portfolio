@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = ["Full-Stack Developer", "UI/UX Designer","Data Analyst","Data Scientist","Mobile App Developer","Desktop App Developer","Tutor","Blockschain Developer"];
   const period = 2000;
 
   useEffect(() => {
@@ -56,7 +56,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to Devcoder6270 Portfolio</span>
-                <h6>{`Hi! I'm Adebiyi Damilare Isaac`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full-Stack Developer", "UI/UX Designer","Data Analyst","Data Scientist","Mobile App Developer","Desktop App Developer","Tutor"]'><span className="wrap">{text}</span></span></h6>
+                <h6>{`Hi! I'm Adebiyi Damilare Isaac`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full-Stack Developer", "UI/UX Designer","Data Analyst","Data Scientist","Mobile App Developer","Desktop App Developer","Tutor","Blockschain Developer"]'><span className="wrap">{text}</span></span></h6>
                   <p>Over five years of experience as a Full-stack,AI developer,Data Scientist,Trainer,Data Analyst & Mobile developer.I design,build & manage your new | existing Ideas into a tech reality, langages good at Python,Javascript,PHP ,Java, CSharp.Committed to producing high-caliber code with cutting-edge solutions, 
                     and ready to pick up new skills. Keeping abreast with the most recent developments and industry best practices in the technology sector,
                      continuously contributing creative fixes and improvements to projects</p>
