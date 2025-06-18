@@ -654,3 +654,57 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius:50%;
   box-shadow: #4A2FBD 1px 2px;
 }
+
+/* below */
+
+.skill-section {
+  padding: 4rem 1rem;
+  background-color: #00060cfd;
+}
+
+.skills-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.column {
+  flex: 1 1 250px;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.column h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.skill-carousel .item {
+  text-align: center;
+  padding: 1rem;
+}
+
+.skill-carousel .item img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
